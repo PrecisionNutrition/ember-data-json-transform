@@ -1,27 +1,4 @@
-# ember-data-json-transform
+# ember-data-json-transform [![Build Status](https://travis-ci.org/PrecisionNutrition/ember-data-json-transform.svg?branch=master)](https://travis-ci.org/PrecisionNutrition/ember-data-json-transform)
 
-This README outlines the details of collaborating on this Ember addon.
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ember-data-json-transform`
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+Converts attributes that are JSON into POJOs. It seems insane, but you kind of
+need this now and then.
